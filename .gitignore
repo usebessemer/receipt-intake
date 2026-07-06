@@ -1,0 +1,25 @@
+# Secrets / config — never commit
+.env
+secrets/
+*token*.json
+*credential*.json
+*client_secret*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Local receipt image cache (if stored on disk)
+data/
+receipts/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
